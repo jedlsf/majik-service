@@ -1,0 +1,56 @@
+{
+  "name": "majik-service",
+  "version": "1.0.0",
+  "description": "Majik Service is a fully-featured class representing a service in the **Majik system**, designed for financial management, cost tracking, and capacity planning. It provides utilities for computing revenue, profit, margins, COS (Cost of Service), and net income on a per-month basis. Chainable setter methods make it easy to construct and update services fluently.",
+  "license": "ISC",
+  "author": "Zelijah",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedlsf/majik-service.git"
+  },
+ "keywords": [
+  "majik",
+  "majik-service",
+  "service-management",
+  "service-finance",
+  "cost-of-service",
+  "COS",
+  "revenue-calculation",
+  "profit-calculation",
+  "financial-modeling",
+  "capacity-planning",
+  "resource-planning",
+  "timesheet",
+  "billing",
+  "pricing",
+  "business-tools",
+  "typescript",
+  "javascript",
+  "enterprise-tools",
+  "monetary-calculation",
+  "majik-money",
+  "service-analytics",
+  "forecasting"
+],
+  "homepage": "https://github.com/jedlsf/majik-service#readme",
+  "bugs": {
+    "url": "https://github.com/jedlsf/majik-service/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@thezelijah/majik-money": "^1.0.3",
+    "nanoid": "^5.1.6",
+    "typescript": "^5.9.3"
+  }
+}
